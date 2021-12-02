@@ -47,8 +47,8 @@ for line in infile:
                 alignment = temp
                 output.write('>' + subject_id + '\n' + alignment)
         i = i+1
-        if i > 20:
-            exit()
+#        if i > 20:
+#            exit()
 
 #with infile, open('test', 'w') as outfile:
     #temp = infile.read().replace("-", "")
